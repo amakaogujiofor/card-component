@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #111d4a;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid red;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* Typography */
+h1 {
+  color: #05cbe9;
+}
+
+p {
+  color: #ffffff;
+}
+
+h3 {
+  color: #686868;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Components */
+button {
+  background: #05cbe9;
+  padding: 0 35px;
+  font-size: medium;
+  font-weight: bold;
+  border-style: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
